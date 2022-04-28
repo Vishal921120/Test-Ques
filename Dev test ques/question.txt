@@ -1,0 +1,29 @@
+Ques 1 . Code to print current webPage .
+Syntax : window.print()
+The print() method prints the contents of the current window.
+The print() method opens the Print Dialog Box, which lets the user to select preferred printing options.
+
+Ques 2 . example of spooled device
+The most common implementation of spooling can be found in typical input/output devices such as the keyboard, mouse and printer. 
+For example, in printer spooling,
+ the documents/files that are sent to the printer are first stored in the memory or printer spooler.
+
+Ques 3. Which languages necessarily need heap allocation in the runtime environment? 
+Explanation: Heap allocation is needed for dynamic data structures like tree, linked list, etc.
+
+Ques 4. when are ll and arrays used
+Both Arrays and Linked List can be used to store linear data of similar types, but they both have some advantages and disadvantages.
+ArrayList provides constant time for search operation, so it is better to use ArrayList if searching is more frequent operation than add and remove operation.
+ The LinkedList provides constant time for add and remove operations. So it is better to use LinkedList for manipulation
+
+Ques 5. in the instruction add a b the answer gets stored in
+Explanation: In any instruction of the form ADD A, B; the answer gets stored in the A register. The format is: ADD Destination, Source.
+
+* brain of computer = central processing unit (cpu). It consists of a control unit and the arithmetic and logic unit. It is responsible for performing all the processes and operations.
+* central nervous system of computer = control unit. because it selects and interprets the instructions and coordinates execution.
+* Mbr = memory buffer register.
+* Pc = program counter. The Program counter contains the address of the next instruction which is to be fetched by the control unit.
+* The IR which stands for the instruction register contains the last instruction fetched.
+* Sequencing is the process of causing the CPU to step through a series of micro operations. Execution causes the performance of each micro operation.
+* Sequencing followed by the process of execution is performed by the Control signals. Sequencing is traversing each and every operation whereas execution causes the performance of each operation.
+* What does D in the D-flip flop stand for? = delay ;In the hardwired control unit, the delay element method uses D-flip flop which causes a delay. Since, in the delay element method, there must be a finite time gap between the 2 steps.
