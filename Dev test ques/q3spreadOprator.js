@@ -13,7 +13,7 @@ function myFunction1(y1,y2,...[y3]){  // like here y3 will get only scissor
     // console.log(y2) // output = paper
     console.log(y3) // output = scissor
     const [x1,...[result]] = y3 //like here result will only get c 
-    console.log(x1) //output = x
+    console.log(x1) //output = s
     console.log(result) //output = c
 }
 
