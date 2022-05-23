@@ -1,5 +1,7 @@
 let myArr = [1,2]
+console.log(myArr.length); // output 2
 myArr.customProperty = true;
+console.log(myArr.length); // output 2
 // we want output 
 //1
 //2

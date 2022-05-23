@@ -1,16 +1,16 @@
 //he function* declaration (function keyword followed by an asterisk) defines a generator function, 
 //which returns a Generator object.
 function* gen1(){
-    console.log(yield 1)
-    console.log(yield 2)
-    console.log(yield 3)
+    console.log(yield 1);
+    console.log(yield 2);
+    console.log(yield 3);
 }
 
 const iterator = gen1();
 
-console.log(iterator.next('a').value)
-console.log(iterator.next('b').value)
-console.log(iterator.next('c').value)
+console.log(iterator.next('a').value);
+console.log(iterator.next('b').value);
+console.log(iterator.next('c').value);
 
 //output of above code
 // 1
@@ -18,6 +18,15 @@ console.log(iterator.next('c').value)
 // 2
 // c
 // 3
+
+// function* myGenFunc(){
+//     yield 1;
+//     yield 2;
+//     yield 3;
+// }
+// var myGenObj = new myGenFunc;
+// console.log(myGenObj.next().value); //output =  myGenFunc is not a constructor
+
 
 //***********************************************************************************/
 // More examples
